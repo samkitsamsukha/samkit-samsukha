@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        noto: ['"Noto Sans"', 'sans-serif'],
+        greatvibes: ['"Great Vibes"', 'sans-serif'],
+        zain: ['"Zain"', 'sans-serif'],
+      },
     },
   },
   plugins: [],
