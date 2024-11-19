@@ -1,5 +1,8 @@
+"use client"
+
 import blogs from "../../../../data/blogs.json";
 import Image from "next/image";
+import { useParams } from "next/navigation"; // Import the useParams hook
 
 // Define the type for the blog post
 interface Blog {
@@ -14,22 +17,8 @@ interface Blog {
 	}>;
 }
 
-// This function generates static paths for the dynamic route
-export async function generateStaticParams() {
-	return blogs.map((blog: Blog) => ({
-		slug: blog.slug,
-	}));
-}
-
-// Define the props for the BlogPost component
-interface BlogPostProps {
-	params: {
-		slug: string;
-	};
-}
-
-const BlogPost = ({ params }: BlogPostProps) => {
-	const { slug } = params;
+const BlogPost = () => {
+	const { slug } = useParams(); // Get the slug from the URL params
 
 	// Find the blog post based on the slug
 	const blog = blogs.find((b: Blog) => b.slug === slug);
@@ -41,7 +30,7 @@ const BlogPost = ({ params }: BlogPostProps) => {
 	return (
 		<div className="flex flex-1 min-h-screen">
 			<div className="flex flex-col items-center text-lg justify-center mx-auto w-[800px] my-12">
-				<h1 className="text-2xl font-semibold bg-gradient-to-r from-orange-500 to-red-500 w-fit rounded-full px-4 py-2 ">
+				<h1 className="text-2xl font-semibold bg-gradient-to-r from-orange-500 to-red-500 w-fit rounded-full px-4 py-2">
 					{blog.title}
 				</h1>
 				<p className="text-sm text-gray-500 italic my-2">{blog.createdAt}</p>
