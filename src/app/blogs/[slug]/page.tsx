@@ -1,10 +1,9 @@
-"use client"
+"use client";
 
 import blogs from "../../../../data/blogs.json";
 import Image from "next/image";
-import { useParams } from "next/navigation"; // Import the useParams hook
+import { useParams } from "next/navigation";
 
-// Define the type for the blog post
 interface Blog {
 	slug: string;
 	title: string;
@@ -18,35 +17,40 @@ interface Blog {
 }
 
 const BlogPost = () => {
-	const { slug } = useParams(); // Get the slug from the URL params
-
-	// Find the blog post based on the slug
+	const { slug } = useParams();
 	const blog = blogs.find((b: Blog) => b.slug === slug);
 
 	if (!blog) {
-		return <div className="flex flex-1 min-h-screen">Blog not found.</div>;
+		return (
+			<div className="flex flex-1 min-h-screen justify-center items-center bg-black">
+				<h1 className="text-xl font-semibold text-gray-300">Blog not found.</h1>
+			</div>
+		);
 	}
 
 	return (
-		<div className="flex flex-1 min-h-screen">
-			<div className="flex flex-col items-center text-lg justify-center mx-auto w-[800px] my-12">
-				<h1 className="text-2xl font-semibold bg-gradient-to-r from-orange-500 to-red-500 w-fit rounded-full px-4 py-2">
-					{blog.title}
-				</h1>
-				<p className="text-sm text-gray-500 italic my-2">{blog.createdAt}</p>
-				<Image
-					src={blog.header}
-					alt={blog.description}
-					width={800}
-					height={200}
-					className="my-8"
-				/>
-				{blog.content.map((item) => (
-					<div key={item.subheading}>
-						<p className="text-xl bg-gray-800 py-2 px-4 w-fit rounded-xl my-1">
+		<div className="flex flex-col items-center bg-gradient-to-b from-black to-gray-800 min-h-screen px-4 py-8">
+			<h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 rounded-full shadow-lg mb-4 text-center">
+				{blog.title}
+			</h1>
+			<p className="text-sm text-gray-500 italic mb-6">{blog.createdAt}</p>
+			<Image
+				src={blog.header}
+				alt={blog.description}
+				width={800}
+				height={400}
+				className="rounded-xl shadow-lg max-w-full object-cover my-6"
+				priority
+			/>
+			<div className="flex flex-col gap-6 w-full max-w-3xl">
+				{blog.content.map((item, index) => (
+					<div key={index} className=" rounded-lg p-4">
+						<h2 className="text-lg font-semibold text-white bg-gray-800 py-1 px-4 rounded-md mb-2 shadow">
 							{item.subheading}
+						</h2>
+						<p className="text-gray-100 leading-relaxed text-justify">
+							{item.paragraph}
 						</p>
-						<p className="my-1 p-2">{item.paragraph}</p>
 					</div>
 				))}
 			</div>

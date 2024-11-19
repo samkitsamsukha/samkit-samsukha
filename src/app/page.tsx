@@ -38,7 +38,7 @@ const sam = [
 
 export default function Home() {
 	return (
-		<div className="min-h-screen flex flex-col flex-1">
+		<div className="min-h-screen flex flex-col flex-1 justify-center items-center">
 			{/* Main section */}
 			<div className="flex flex-col md:flex-row md:mx-12 lg:mx-44 my-10 h-full items-center space-y-10 md:space-y-0">
 				{/* Text section */}
@@ -56,7 +56,7 @@ export default function Home() {
 						and MongoDB to have a strong grip on my backend skills along with
 						working on several projects.
 					</div>
-					<div className="flex justify-center">
+					<div className="flex justify-center md:justify-start">
 						<a
 							href="/resume.pdf"
 							download
@@ -68,7 +68,7 @@ export default function Home() {
 				</div>
 
 				{/* Image section */}
-				<div className="md:w-2/5 flex justify-center items-center p-6">
+				<div className="md:w-2/5 flex justify-center items-center px-6">
 					<div className="relative w-72 h-72 md:w-96 md:h-96 bg-gradient-to-tr from-orange-500 to-yellow-500 rounded-full shadow-lg glow-effect">
 						<style jsx>{`
 							.glow-effect {
@@ -88,11 +88,11 @@ export default function Home() {
 			</div>
 
 			{/* Social and coding profiles section */}
-			<div className="mx-4 md:mx-12 lg:mx-44 h-full flex flex-col justify-center items-center space-y-6">
-				<h2 className="text-lg md:text-xl font-semibold bg-gradient-to-r from-orange-500 to-red-500 w-fit rounded-full px-4 py-1">
+			<div className="h-full flex flex-col justify-center items-center space-y-6">
+				{/* <h2 className="text-lg md:text-xl font-semibold bg-gradient-to-r from-orange-500 to-red-500 w-fit rounded-full px-4 py-1">
 					Social and Coding Profiles
-				</h2>
-				<div className="flex flex-wrap justify-center gap-4 p-4">
+				</h2> */}
+				<div className="flex flex-wrap justify-center gap-4 p-4 mt-0 md:mt-6">
 					<AnimatedTooltip items={sam} />
 				</div>
 			</div>

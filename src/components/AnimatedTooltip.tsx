@@ -32,9 +32,9 @@ export const AnimatedTooltip: React.FC<AnimatedTooltipProps> = ({ items }) => {
 					<Image
 						src={item.image}
 						alt={item.name}
-						width={64}
-						height={64}
-						className="rounded-full"
+						width={48}
+						height={48}
+						className="rounded-full hover:scale-110 duration-300 transition-all"
 					/>
 					{hoveredItem === item.id && (
 						<div className="absolute bottom-full mb-2 w-32 p-2 text-center text-white bg-black rounded-lg shadow-lg transition-opacity duration-300 opacity-100">
