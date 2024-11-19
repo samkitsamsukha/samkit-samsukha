@@ -93,23 +93,23 @@ const ProjectPage = () => {
 				</div>
 
 				{/* Second Row */}
-				<div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
-                    <div className="lg:col-span-2 bg-gray-950 border-[1px] border-orange-600 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300">
+				<div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div className="lg:col-span-1 bg-gray-950 border-[1px] border-orange-600 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300">
 						<h2 className="text-xl font-semibold text-orange-400 mb-2">
 							Description
 						</h2>
 						<p>{project.desc}</p>
 					</div>
 					{/* Gallery */}
-					<div className="lg:col-span-3 bg-gray-950 border-[1px] border-orange-600 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300">
+					<div className="lg:col-span-1 bg-gray-950 border-[1px] border-orange-600 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300">
 						<h2 className="text-xl font-semibold text-orange-400 mb-2">
 							Gallery
 						</h2>
-						<div className="grid grid-cols-2 gap-4">
+						<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 							{project.imageGallery.map((image, index) => (
 								<div
 									key={index}
-									className="relative w-full h-32 group overflow-hidden rounded-lg"
+									className="relative md:w-60 h-32 group overflow-hidden rounded-lg flex justify-center items-center"
 								>
 									<Image
 										src={image}

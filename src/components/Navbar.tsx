@@ -2,33 +2,39 @@
 
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
-
+	const router = useRouter();
+	
 	const links = [
 		{
 			id: 1,
-			link: "/", // Set link to root path for Home
+			link: "/", 
 		},
 		{
 			id: 2,
-			link: "education",
+			link: "/education",
 		},
 		{
 			id: 3,
-			link: "projects",
+			link: "/projects",
 		},
 		{
 			id: 4,
-			link: "skills",
+			link: "/skills",
 		},
 		{
 			id: 5,
-			link: "blogs",
+			link: "/blogs",
 		},
 	];
+
+	const navigateTo = (path) => {
+		router.push(path);
+		setNav(false);
+	};
 
 	return (
 		<div className={`flex justify-between items-center z-20 bg-black px-6 py-2`}>
@@ -41,10 +47,9 @@ const Navbar = () => {
 					<li
 						key={id}
 						className={`px-4 cursor-pointer capitalize font-medium hover:scale-105 hover:text-yellow-200 duration-200`}
+						onClick={() => navigateTo(link)}
 					>
-						<Link href={link}>
-							{link === '/' ? 'Home' : link}
-						</Link>
+						{link === '/' ? 'Home' : link.slice(1, link.length)}
 					</li>
 				))}
 			</ul>
@@ -64,10 +69,9 @@ const Navbar = () => {
 						<li
 							key={id}
 							className="px-4 cursor-pointer capitalize py-2 text-2xl"
+							onClick={() => navigateTo(link)}
 						>
-							<Link onClick={() => setNav(!nav)} href={link}>
-								{link === '/' ? 'Home' : link}
-							</Link>
+							{link === '/' ? 'Home' : link}
 						</li>
 					))}
 				</ul>
