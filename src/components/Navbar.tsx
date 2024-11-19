@@ -15,19 +15,19 @@ const Navbar: React.FC = () => {
 		},
 		{
 			id: 2,
-			link: "education",
+			link: "/education",
 		},
 		{
 			id: 3,
-			link: "projects",
+			link: "/projects",
 		},
 		{
 			id: 4,
-			link: "skills",
+			link: "/skills",
 		},
 		{
 			id: 5,
-			link: "blogs",
+			link: "/blogs",
 		},
 	];
 
@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
 						className={`px-4 cursor-pointer capitalize font-medium hover:scale-105 hover:text-yellow-200 duration-200`}
 						onClick={() => navigateTo(link)}
 					>
-						{link === '/' ? 'Home' : link}
+						{link === '/' ? 'Home' : link.slice(1, link.length)}
 					</li>
 				))}
 			</ul>
@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
 							className="px-4 cursor-pointer capitalize py-2 text-2xl"
 							onClick={() => navigateTo(link)}
 						>
-							{link === '/' ? 'Home' : link}
+							{link === '/' ? 'Home' : link.slice(1, link.length)}
 						</li>
 					))}
 				</ul>
