@@ -1,7 +1,6 @@
-"use client"
+"use client";
 
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Link from "next/link";
 
@@ -11,7 +10,7 @@ const Navbar = () => {
 	const links = [
 		{
 			id: 1,
-			link: "home",
+			link: "/", // Set link to root path for Home
 		},
 		{
 			id: 2,
@@ -32,14 +31,9 @@ const Navbar = () => {
 	];
 
 	return (
-		<div
-			className={`flex justify-between items-center z-20 bg-black px-6 py-2`}
-		>
-			<div className="font-zain text-5xl sm:text-4xl  text-yellow-200">
-				<h1
-				>
-					samkit samsukha
-				</h1>
+		<div className={`flex justify-between items-center z-20 bg-black px-6 py-2`}>
+			<div className="font-zain text-5xl sm:text-4xl text-yellow-200">
+				<h1>samkit samsukha</h1>
 			</div>
 
 			<ul className="hidden md:flex text-xl md:justify-center md:items-center">
@@ -48,13 +42,9 @@ const Navbar = () => {
 						key={id}
 						className={`px-4 cursor-pointer capitalize font-medium hover:scale-105 hover:text-yellow-200 duration-200`}
 					>
-                        {
-                            link === 'home' ? <Link href={'/'}>
-							Home
-						</Link> : <Link href={`/${link}`}>
-							{link}
+						<Link href={link}>
+							{link === '/' ? 'Home' : link}
 						</Link>
-                        }
 					</li>
 				))}
 			</ul>
@@ -75,11 +65,8 @@ const Navbar = () => {
 							key={id}
 							className="px-4 cursor-pointer capitalize py-2 text-2xl"
 						>
-							<Link
-								onClick={() => setNav(!nav)}
-								href={`/${link}`}
-							>
-								{link}
+							<Link onClick={() => setNav(!nav)} href={link}>
+								{link === '/' ? 'Home' : link}
 							</Link>
 						</li>
 					))}
