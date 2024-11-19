@@ -38,7 +38,7 @@ const sam = [
 
 export default function Home() {
 	return (
-		<div className="min-h-screen flex flex-col flex-1 justify-center items-center">
+		<div className="min-h-screen flex flex-col flex-1 justify-center items-center mb-16">
 			{/* Main section */}
 			<div className="flex flex-col md:flex-row md:mx-12 lg:mx-44 my-10 h-full items-center space-y-10 md:space-y-0">
 				{/* Text section */}

@@ -16,7 +16,7 @@ const Projects = () => {
 							{/* Image Component */}
 							<div className="relative w-full h-48 sm:h-64 mb-4">
 								<Image
-									src={portfolio.imageGallery[0]}
+									src={portfolio.src}
 									alt={portfolio.title}
 									layout="fill"
 									objectFit="cover"

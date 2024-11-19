@@ -3,7 +3,7 @@
 		"id": 1,
 		"slug": "vitalis",
 		"title": "Vitalis - Healthcare Platform",
-		"src": "/images/portfolio1.jpg",
+		"src": "/projects/vitalis/1.png",
 		"desc": "Vitalis is a decentralized healthcare platform, fostering transparency between doctors and patients, giving patients greater control over their healthcare data. Smart contracts are the backbone of Vitalis, automating critical processes and ensuring security, transparency, and decentralization. They eliminate the need for intermediaries, reducing operational inefficiencies and costs.",
 		"features": [
 			"Book and Manage Appointments",
@@ -26,6 +26,128 @@
 		],
 		"code": "https://github.com/samkitsamsukha/vitalis",
 		"demo": "https://vitalis.shrishdeshpande.com",
-		"videoId": "ocZt6B_tQ94"
+		"videoId": "KgemxuNsC2I"
+	},
+    {
+		"id": 2,
+		"slug": "rfid-direct",
+		"title": "RFID-Direct (Ecommerce) - Frontend",
+		"src": "/projects/rfiddirect/1.png",
+		"desc": "RFID-Direct is an E-commerce website which is designed for the sale of RFID products which involves diverse items like RFID Enabled Smart Locker, Smart Doors and Inventory Management Reader. This is a frontend website which offers a variety of components including product page, cart, checkout and payment gateway brought by RazorPay.",
+		"features": [
+			"Complete Frontend design for E-Commerce",
+			"Dedicated Product and Order Page",
+			"Payment Gateway powered by Razorpay"
+		],
+		"tech": [
+			"ReactJS",
+			"Tailwind CSS",
+			"RazorPay",
+			"TailBlocks"
+		],
+		"imageGallery": [
+			"/projects/rfiddirect/1.png",
+			"/projects/rfiddirect/2.png",
+			"/projects/rfiddirect/3.png",
+			"/projects/rfiddirect/4.png"
+		],
+		"code": "https://github.com/samkitsamsukha/rfid-direct-ecom",
+		"demo": "https://rfid-direct-ecom.vercel.app/",
+		"videoId": ""
+	},
+    {
+		"id": 3,
+		"slug": "snake-ladder",
+		"title": "Snakes & Ladder - [Freelance Project]",
+		"src": "/projects/snakeladder/1.png",
+		"desc": "I have developed a gamification website for clients from the Agile - JIRA and SCRUM team. This gamification involves snakes and ladder game with a slight twist. As soon as the peg arrives at a snake head or at the base of the ladder, a question modal pops up which displays and MCQ. The snake bites the player only if he gives an incorrect answer and the ladder takes the player higher only if he gives a correct answer.",
+		"features": [
+			"Minimalist UI Design",
+			"Clean Frontend",
+            "Well Structured Components"
+		],
+		"tech": [
+			"ReactJS",
+			"Tailwind CSS"
+		],
+		"imageGallery": [
+			"/projects/snakeladder/1.png",
+			"/projects/snakeladder/2.png",
+			"/projects/snakeladder/3.png",
+			"/projects/snakeladder/4.png"
+		],
+		"code": "https://github.com/samkitsamsukha/snake-ladder",
+		"demo": "https://snake-ladder-roan.vercel.app/",
+		"videoId": ""
+	},
+    {
+		"id": 4,
+		"slug": "daily-dispatch",
+		"title": "Daily Dispatch - Latest News",
+		"src": "/projects/dailydispatch/1.png",
+		"desc": "A news website which renders latest news from the NewsAPI and displays it category wise based on different genre in a card format using the concept of react component reusability. Each card has a Read Now button redirecting to the main article.",
+		"features": [
+			"News classified by genre",
+			"Component Resuability"
+		],
+		"tech": [
+			"ReactJS",
+			"Tailwind CSS",
+			"NewsAPI"
+		],
+		"imageGallery": [
+			"/projects/dailydispatch/1.png"
+		],
+		"code": "https://github.com/samkitsamsukha/daily-dispatch",
+		"demo": "",
+		"videoId": "k-43Gn-8a5I"
+	},
+	{
+		"id": 5,
+		"slug": "expense-tracker",
+		"title": "Expense Tracker",
+		"src": "/projects/expensetracker/1.png",
+		"desc": "A simple react application which tracks your expenses providing features like add income and expenditure along with remarks. The data appends to a history of transactions.",
+		"features": [
+			"Minimalist UI Design",
+			"Add income / expenditure"
+		],
+		"tech": [
+			"ReactJS",
+			"Tailwind CSS"
+		],
+		"imageGallery": [
+			"/projects/expensetracker/1.png"
+		],
+		"code": "https://github.com/samkitsamsukha/expense-tracker",
+		"demo": "https://expense-tracker-iota-six-93.vercel.app/",
+		"videoId": ""
+	},
+	{
+		"id": 6,
+		"slug": "codehelp",
+		"title": "CodeHelp </>",
+		"src": "/projects/CodeHelp/1.png",
+		"desc": "An educational platform for beginners to get their hand wet into web development. This website offers a variety of features such as dedicated tutorials with code and example for HTML, CSS, JavaScript, Python, C++ and Java. Along with this, there is a Pomodoro Timer, a note taking page, a to do list page and faqs etc.",
+		"features": [
+			"Tutorial Pages for Languages",
+			"Beginner Friendly",
+			"Note Taking & To-Do list"
+		],
+		"tech": [
+			"HTML",
+			"CSS",
+			"JS",
+			"Prism.js"
+		],
+		"imageGallery": [
+			"/projects/codehelp/1.png",
+			"/projects/codehelp/2.png",
+			"/projects/codehelp/3.png",
+			"/projects/codehelp/4.png"
+		],
+		"code": "https://github.com/samkitsamsukha/CodeHelp",
+		"demo": "",
+		"videoId": "zqJFeQ3-ujk"
 	}
 ]

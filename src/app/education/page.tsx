@@ -30,7 +30,7 @@ const edu = [
 
 const EducationPage = () => {
 	return (
-		<div className="flex flex-col items-center min-h-screen bg-black mt-16"> {/* Added mt-16 to account for the Navbar height */}
+		<div className="flex flex-col items-center min-h-screen bg-black mb-16"> {/* Added mt-16 to account for the Navbar height */}
 			{/* Title */}
 			<div className="flex mx-auto w-fit rounded-full text-center px-4 py-2 bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 font-bold text-2xl mt-16 mb-8">
 				My Education

@@ -31,7 +31,7 @@ const BlogPost = () => {
 	}
 
 	return (
-		<div className="flex flex-col items-center bg-black min-h-screen px-4 py-8">
+		<div className="flex flex-col items-center bg-black min-h-screen px-4 py-8 mb-16">
 			<h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 rounded-full shadow-lg mb-4 text-center">
 				{blog.title}
 			</h1>

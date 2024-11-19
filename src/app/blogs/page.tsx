@@ -6,7 +6,7 @@ import blogs from "../../../data/blogs.json"; // Ensure this path is correct
 
 const BlogsPage = () => {
 	return (
-		<div className="flex flex-col items-center min-h-screen bg-black">
+		<div className="flex flex-col items-center min-h-screen bg-black mb-16">
 			<div className="flex mx-auto w-fit rounded-full text-center px-4 py-2 bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 font-bold text-2xl my-16">
 				Blog Posts
 			</div>
