@@ -4,36 +4,37 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
 	const [nav, setNav] = useState(false);
 	const router = useRouter();
 	
 	const links = [
 		{
 			id: 1,
-			link: "/", 
+			link: "/", // Set link to root path for Home
 		},
 		{
 			id: 2,
-			link: "/education",
+			link: "education",
 		},
 		{
 			id: 3,
-			link: "/projects",
+			link: "projects",
 		},
 		{
 			id: 4,
-			link: "/skills",
+			link: "skills",
 		},
 		{
 			id: 5,
-			link: "/blogs",
+			link: "blogs",
 		},
 	];
 
-	const navigateTo = (path) => {
+	// Type annotation for path parameter
+	const navigateTo = (path: string) => {
 		router.push(path);
-		setNav(false);
+		setNav(false); // Close mobile menu after navigation
 	};
 
 	return (
@@ -49,7 +50,7 @@ const Navbar = () => {
 						className={`px-4 cursor-pointer capitalize font-medium hover:scale-105 hover:text-yellow-200 duration-200`}
 						onClick={() => navigateTo(link)}
 					>
-						{link === '/' ? 'Home' : link.slice(1, link.length)}
+						{link === '/' ? 'Home' : link}
 					</li>
 				))}
 			</ul>
