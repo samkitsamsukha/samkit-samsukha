@@ -127,7 +127,7 @@
 		"id": 6,
 		"slug": "codehelp",
 		"title": "CodeHelp </>",
-		"src": "/projects/CodeHelp/1.png",
+		"src": "/projects/codehelp/1.png",
 		"desc": "An educational platform for beginners to get their hand wet into web development. This website offers a variety of features such as dedicated tutorials with code and example for HTML, CSS, JavaScript, Python, C++ and Java. Along with this, there is a Pomodoro Timer, a note taking page, a to do list page and faqs etc.",
 		"features": [
 			"Tutorial Pages for Languages",
