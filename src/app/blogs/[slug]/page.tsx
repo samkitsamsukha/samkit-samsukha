@@ -1,18 +1,38 @@
 import blogs from "../../../../data/blogs.json";
 import Image from "next/image";
 
-//* This function generates static paths for the dynamic route
+// Define the type for the blog post
+interface Blog {
+	slug: string;
+	title: string;
+	createdAt: string;
+	header: string;
+	description: string;
+	content: Array<{
+		subheading: string;
+		paragraph: string;
+	}>;
+}
+
+// This function generates static paths for the dynamic route
 export async function generateStaticParams() {
-	return blogs.map((blog) => ({
+	return blogs.map((blog: Blog) => ({
 		slug: blog.slug,
 	}));
 }
 
-const BlogPost = ({ params }: { params: { slug: string } }) => {
+// Define the props for the BlogPost component
+interface BlogPostProps {
+	params: {
+		slug: string;
+	};
+}
+
+const BlogPost = ({ params }: BlogPostProps) => {
 	const { slug } = params;
 
 	// Find the blog post based on the slug
-	const blog = blogs.find((b) => b.slug === slug);
+	const blog = blogs.find((b: Blog) => b.slug === slug);
 
 	if (!blog) {
 		return <div className="flex flex-1 min-h-screen">Blog not found.</div>;
@@ -31,7 +51,7 @@ const BlogPost = ({ params }: { params: { slug: string } }) => {
 					width={800}
 					height={200}
 					className="my-8"
-				></Image>
+				/>
 				{blog.content.map((item) => (
 					<div key={item.subheading}>
 						<p className="text-xl bg-gray-800 py-2 px-4 w-fit rounded-xl my-1">
