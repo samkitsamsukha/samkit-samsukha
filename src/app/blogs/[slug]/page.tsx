@@ -9,6 +9,8 @@ interface Blog {
 	title: string;
 	createdAt: string;
 	header: string;
+	width: number,
+	height:number,
 	description: string;
 	content: Array<{
 		subheading: string;
@@ -29,23 +31,23 @@ const BlogPost = () => {
 	}
 
 	return (
-		<div className="flex flex-col items-center bg-gradient-to-b from-black to-gray-800 min-h-screen px-4 py-8">
+		<div className="flex flex-col items-center bg-black min-h-screen px-4 py-8">
 			<h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 rounded-full shadow-lg mb-4 text-center">
 				{blog.title}
 			</h1>
-			<p className="text-sm text-gray-500 italic mb-6">{blog.createdAt}</p>
+			<p className="text-sm text-gray-600 italic mb-6">{blog.createdAt}</p>
 			<Image
 				src={blog.header}
 				alt={blog.description}
-				width={800}
-				height={400}
+				width={blog.width}
+				height={blog.height}
 				className="rounded-xl shadow-lg max-w-full object-cover my-6"
 				priority
 			/>
 			<div className="flex flex-col gap-6 w-full max-w-3xl">
 				{blog.content.map((item, index) => (
 					<div key={index} className=" rounded-lg p-4">
-						<h2 className="text-lg font-semibold text-white bg-gray-800 py-1 px-4 rounded-md mb-2 shadow">
+						<h2 className="text-lg font-semibold text-white bg-gray-900 py-1 px-4 rounded-md mb-2 shadow">
 							{item.subheading}
 						</h2>
 						<p className="text-gray-100 leading-relaxed text-justify">

@@ -1,0 +1,24 @@
+[
+    {
+      "slug": "project-1",
+      "title": "AI-Powered Portfolio",
+      "src": "/images/portfolio1.jpg",
+      "projectDate": "2023-10-15",
+      "desc": "This is a portfolio website powered by AI to provide personalized project recommendations and insights.",
+      "features": [
+        "AI-based project suggestions",
+        "Responsive design",
+        "Real-time analytics"
+      ],
+      "tech": ["React", "Next.js", "Tailwind CSS", "PostgreSQL", "Node.js"],
+      "imageGallery": [
+        "/images/portfolio1_1.jpg",
+        "/images/portfolio1_2.jpg",
+        "/images/portfolio1_3.jpg",
+        "/images/portfolio1_4.jpg"
+      ],
+      "code": "https://github.com/user/ai-portfolio",
+      "demo": "https://ai-portfolio-demo.vercel.app",
+      "videoId": "dQw4w9WgXcQ"
+    }
+]

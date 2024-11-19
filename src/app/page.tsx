@@ -13,7 +13,7 @@ const sam = [
 	{
 		id: 2,
 		name: "GitHub",
-		image: "/github.webp",
+		image: "/github.png",
 		link: "https://github.com/samkitsamsukha",
 	},
 	{
@@ -31,7 +31,7 @@ const sam = [
 	{
 		id: 5,
 		name: "CodeChef",
-		image: "/codechef.jpg",
+		image: "/codechef.png",
 		link: "https://www.codechef.com/users/serenechaos",
 	},
 ];
@@ -86,12 +86,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-
-			{/* Social and coding profiles section */}
 			<div className="h-full flex flex-col justify-center items-center space-y-6">
-				{/* <h2 className="text-lg md:text-xl font-semibold bg-gradient-to-r from-orange-500 to-red-500 w-fit rounded-full px-4 py-1">
-					Social and Coding Profiles
-				</h2> */}
 				<div className="flex flex-wrap justify-center gap-4 p-4 mt-0 md:mt-6">
 					<AnimatedTooltip items={sam} />
 				</div>

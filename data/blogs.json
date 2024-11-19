@@ -4,6 +4,36 @@
 		"title": "NextJS and Hydration",
 		"slug": "nextjs-and-hydration",
 		"header": "/1.png",
+		"width": 800,
+		"height" : 400,
+		"description": "Explore the puzzling yet common issue of hydration faults in Next.js, where server-rendered content struggles to sync seamlessly with the client. This blog delves into the causes, prevention techniques, and effective debugging strategies to keep your applications smooth and error-free.",
+		"content": [
+			{
+				"subheading": "Introduction",
+				"paragraph": "Ever opened a Next.js app, only to see it throw a tantrum in the console, complaining about mismatched content? Hydration faults are like that one friend who insists on starting a debate at a dinner party\u2014they\u2019re disruptive and hard to ignore. But don't worry; understanding these quirks can turn you from an annoyed developer into a hydration ninja! \ud83e\udd77"
+			},
+			{
+				"subheading": "Causes of Hydration Faults",
+				"paragraph": "Hydration faults occur when the server-rendered HTML doesn't align with what React expects on the client. Common culprits include rendering dynamic content like timestamps or random values during SSR, or mismatched props between server and client. It\u2019s often the result of good intentions gone awry\u2014like trying to make everything dynamic without accounting for lifecycle nuances."
+			},
+			{
+				"subheading": "Preventing Hydration Faults",
+				"paragraph": "Prevention is better than cure! Avoid server-side rendering of content that depends on browser-specific data, like 'window' or 'document'. Instead, use conditional rendering or libraries like 'useEffect' for client-side adjustments. Always double-check your Next.js dynamic imports and default props to ensure consistency. Think of it as laying a strong foundation before you build the house."
+			},
+			{
+				"subheading": "Debugging Techniques",
+				"paragraph": "Debugging hydration issues requires a meticulous approach. Start by comparing server-rendered and client-rendered DOM structures. Tools like React DevTools can help pinpoint inconsistencies. Look out for warnings like 'Expected server HTML to match client HTML' and address them by isolating problem components. When all else fails, revisit your component logic with fresh eyes\u2014it\u2019s like finding that missing puzzle piece."
+			}
+		],
+		"createdAt": "17th November, 2024"
+	},
+	{
+		"id": 2,
+		"title": "NextJS and Hydration2",
+		"slug": "nextjs-and-hydration2",
+		"header": "/1.png",
+		"width": 500,
+		"height" : 500,
 		"description": "Explore the puzzling yet common issue of hydration faults in Next.js, where server-rendered content struggles to sync seamlessly with the client. This blog delves into the causes, prevention techniques, and effective debugging strategies to keep your applications smooth and error-free.",
 		"content": [
 			{
