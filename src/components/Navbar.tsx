@@ -49,8 +49,8 @@ const Navbar: React.FC = () => {
 
             {/* Mobile Menu */}
             <div
-                className={`absolute top-0 left-0 w-full h-screen bg-black transition-transform duration-300 ease-in-out transform ${
-                    nav ? "-translate-x-0" : "translate-x-full"
+                className={`fixed top-0 right-0 w-3/4 h-full bg-black transition-transform duration-300 ease-in-out transform ${
+                    nav ? "translate-x-0" : "translate-x-full"
                 }`}
             >
                 <ul className="flex flex-col justify-center items-center h-full">
