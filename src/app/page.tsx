@@ -39,9 +39,7 @@ const sam = [
 export default function Home() {
 	return (
 		<div className="min-h-screen flex flex-col flex-1 justify-center items-center mb-16">
-			{/* Main section */}
 			<div className="flex flex-col md:flex-row md:mx-12 lg:mx-44 my-10 h-full items-center space-y-10 md:space-y-0">
-				{/* Text section */}
 				<div className="md:w-3/5 flex flex-col text-center md:text-left px-4 md:px-0">
 					<h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold">
 						Hello, I am a <br />
@@ -66,8 +64,6 @@ export default function Home() {
 						</a>
 					</div>
 				</div>
-
-				{/* Image section */}
 				<div className="md:w-2/5 flex justify-center items-center px-6">
 					<div className="relative w-72 h-72 md:w-96 md:h-96 bg-gradient-to-tr from-orange-500 to-yellow-500 rounded-full shadow-lg glow-effect">
 						<style jsx>{`

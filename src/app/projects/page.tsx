@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image"; // Import the Image component from Next.js
+import Image from "next/image";
 import portfolios from "../../../data/projects.json";
 
 const Projects = () => {
@@ -13,7 +13,6 @@ const Projects = () => {
 				{portfolios.map((portfolio) => (
 					<Link key={portfolio.id} href={`/projects/${portfolio.slug}`}>
 						<div className="relative bg-gradient-to-b from-orange-900 via-black to-black text-white p-6 rounded-xl w-full transition-all duration-300 ease-in-out hover:scale-105 overflow-hidden border-b-[2px] border-orange-900">
-							{/* Image Component */}
 							<div className="relative w-full h-48 sm:h-64 mb-4">
 								<Image
 									src={portfolio.src}
@@ -23,8 +22,6 @@ const Projects = () => {
 									className="rounded-t-xl"
 								/>
 							</div>
-
-							{/* Text Content */}
 							<div className="relative z-10 flex flex-col justify-center h-fit space-y-2">
 								<h3 className="text-xl sm:text-2xl font-bold hover:text-orange-400 transition-colors duration-200">
 									{portfolio.title}

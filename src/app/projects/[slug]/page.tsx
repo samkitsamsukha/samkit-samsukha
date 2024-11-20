@@ -28,7 +28,7 @@ const ProjectPage = () => {
         );
     }
 
-    const openModal = (image: string) => { // Explicitly set type for image
+    const openModal = (image: string) => {
         setSelectedImage(image);
         setIsModalOpen(true);
     };
@@ -42,10 +42,7 @@ const ProjectPage = () => {
         <div className="min-h-screen bg-black text-white p-8 mb-16">
             <div className="max-w-7xl mx-auto space-y-6">
                 <h1 className="text-4xl font-bold text-white mb-8">{project.title}</h1>
-
-                {/* First Row */}
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                    {/* Description */}
                     <div className="bg-gray-950 border-[1px] border-orange-600 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300">
                         <h2 className="text-xl font-semibold text-orange-400 mb-2">
                             Features
@@ -56,8 +53,6 @@ const ProjectPage = () => {
                             ))}
                         </ul>
                     </div>
-
-                    {/* Technologies Used */}
                     <div className="bg-gray-950 border-[1px] border-orange-600 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300">
                         <h2 className="text-xl font-semibold text-orange-400 mb-2">
                             Technologies Used
@@ -73,8 +68,6 @@ const ProjectPage = () => {
                             ))}
                         </ul>
                     </div>
-
-                    {/* Links */}
                     <div className="bg-gray-950 border-[1px] border-orange-600 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300">
                         <h2 className="text-xl font-semibold text-orange-400 mb-2">
                             Links
@@ -113,8 +106,6 @@ const ProjectPage = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Second Row */}
                 <div className=" grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="lg:col-span-1 bg-gray-950 border-[1px] border-orange-600 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300">
                         <h2 className="text-xl font-semibold text-orange-400 mb-2">
@@ -122,7 +113,6 @@ const ProjectPage = () => {
                         </h2>
                         <p>{project.desc}</p>
                     </div>
-                    {/* Gallery */}
                     <div className="lg:col-span-1 bg-gray-950 border-[1px] border-orange-600 p-6 rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300">
                         <h2 className="text-xl font-semibold text-orange-400 mb-2">
                             Gallery
@@ -146,8 +136,6 @@ const ProjectPage = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Demo Video */}
                 {project.videoId && (
                     <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300">
                         <iframe
@@ -161,8 +149,6 @@ const ProjectPage = () => {
                         ></iframe>
                     </div>
                 )}
-
-                {/* Modal for Fullscreen Image */}
                 {isModalOpen && (
                     selectedImage && <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
                     <div className="relative">
