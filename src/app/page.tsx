@@ -58,7 +58,7 @@ export default function Home() {
 					</div>
 					<div className="flex justify-center md:justify-start">
 						<a
-							href="/resume.pdf"
+							href="/RESUME.pdf"
 							download
 							className="mt-4 w-fit inline-block px-4 py-2 text-lg font-semibold text-white bg-gradient-to-r from-orange-600 to-red-600 rounded-lg shadow-lg hover:scale-105 transition-shadow duration-300"
 						>
