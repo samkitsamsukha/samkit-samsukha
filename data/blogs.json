@@ -1,5 +1,33 @@
 [
 	{
+		"id": 2,
+		"title": "First Hand Hackathon Experience",
+		"slug": "hackathon-exp",
+		"header": "/blogs/nmit.png",
+		"width": 800,
+		"height": 400,
+		"description": "After submitting PPT's to 'n' hackathons, finally got selected for the Quant-A-Maze 2.0 by Nitte Meenakshi Institute of Technology. This was going to be my first hackathon and we",
+		"content": [
+			{
+				"subheading": "Team Dynamics",
+				"paragraph": "I was fortunate to be part of a diverse team, cogito-ergo-sum, which essentially means I think, therefore I am, each member bringing unique skills to the table. We had a backend developer, a frontend designer, a blockchain developer and a AI specialist. This diversity sparked lively discussions and helped us approach problems from different angles. Collaboration was key, and we quickly learned to leverage each other's strengths."
+			},
+			{
+				"subheading": "Challenges Faced",
+				"paragraph": "As we dove into our project, we encountered several challenges. Technical issues with our code and segmentation faults did spoil the mood. However, these obstacles only fueled our determination. We learned to adapt and pivot our ideas, which ultimately led us to a more innovative solution."
+			},
+			{
+				"subheading": "The Final Pitch",
+				"paragraph": "After hours of hard work, it was time to present our project. Standing in front of the judges, I felt a rush of adrenaline. We showcased our solution, highlighting its features and potential impact.Although we could not leave an impact while presenting. and it was gratifying to see our efforts recognized. The experience was invaluable as we got to learn that the presentation is as important as the prototype."
+			},
+			{
+				"subheading": "Reflection",
+				"paragraph": "Participating in my first hackathon was a transformative experience. I gained not only technical skills but also insights into teamwork and problem-solving under pressure. It ignited a passion for collaborative innovation that I carry with me to this day. I can't wait for the next hackathon!"
+			}
+		],
+		"createdAt": "20th November, 2024"
+	},
+	{
 		"id": 1,
 		"title": "NextJS and Hydration",
 		"slug": "nextjs-and-hydration",
