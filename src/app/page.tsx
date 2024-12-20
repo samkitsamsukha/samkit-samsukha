@@ -38,7 +38,7 @@ const sam = [
 
 export default function Home() {
 	return (
-		<div className="min-h-screen flex flex-col flex-1 justify-center items-center mb-16">
+		<div className="min-h-screen flex flex-col flex-1 justify-center items-center">
 			<div className="flex flex-col md:flex-row md:mx-12 lg:mx-44 my-10 h-full items-center space-y-10 md:space-y-0">
 				<div className="md:w-3/5 flex flex-col text-center md:text-left px-4 md:px-0">
 					<h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold">
@@ -58,7 +58,7 @@ export default function Home() {
 						<a
 							href="/RESUME.pdf"
 							download
-							className="mt-4 w-fit inline-block px-4 py-2 text-lg font-semibold text-white bg-gradient-to-r from-orange-600 to-red-600 rounded-lg shadow-lg hover:scale-105 transition-shadow duration-300"
+							className="mt-4 w-fit inline-block px-4 py-2 text-lg font-semibold text-white bg-gradient-to-r from-orange-600 to-red-600 rounded-lg shadow-lg hover:scale-105 transition-all duration-300"
 						>
 							Resume
 						</a>

@@ -1,5 +1,29 @@
 [
 	{
+		"id": 3,
+		"title": "Can you write CSS?",
+		"slug": "css",
+		"header": "/blogs/css.png",
+		"width": 800,
+		"height": 400,
+		"description": "With the advent of TailwindCSS, sometimes we must reflect and see if we can still efficiently code webpages using plain CSS.",
+		"content": [
+			{
+				"subheading": "Introduction",
+				"paragraph": "I participated in CodeCraze, a web development challenge by the MVJ College of Engineering. This event aimed to test our skills in building webpages using plain HTML & CSS. As someone who primarily uses TailwindCSS, I was intrigued by the challenge. Could I create beautiful, functional designs without relying on utility classes? The answer is a mix of yes and no."
+			},
+			{
+				"subheading": "Challenges Faced",
+				"paragraph": "Tailwind, to some extent has spoiled the frontend developer in us. We have become accustomed to its convenience and speed. However, during the challenge, I struggled at first, trying to remember the syntax for flexbox and grid layouts. I missed the ease of Tailwind's responsive classes and color palettes. I wrote <div class=\"flex\"> and then the realization hits that you must do display: \"flex\";"
+			},
+			{
+				"subheading": "Reflection",
+				"paragraph": "Taking up this challenge intrigued me to practice writing more CSS. I was able to write keyframes comfortably but still faced issues with media queries. I realized that while Tailwind is a powerful tool, it's essential to understand the underlying CSS concepts. This challenge was a reminder to hone my CSS skills and not rely solely on utility classes. It's like going back to the basics to build a stronger foundation."
+			}
+		],
+		"createdAt": "20th December, 2024"
+	},
+	{
 		"id": 2,
 		"title": "First Hand Hackathon Experience",
 		"slug": "hackathon-exp",
