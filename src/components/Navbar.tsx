@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
         setNav(false);
     };
     return (
-        <div className="fixed w-full flex justify-between items-center z-20 bg-black bg-opacity-80 backdrop-blur-lg px-6 py-2">
+        <div className="flex justify-between items-center z-20 bg-black px-6 py-2">
             <div className="font-zain text-5xl sm:text-4xl text-yellow-200">
                 <h1>samkit samsukha</h1>
             </div>
