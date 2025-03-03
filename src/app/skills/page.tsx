@@ -10,7 +10,6 @@ import git from "../../../public/git.png";
 import tailwind from "../../../public/tailwind.png";
 import cpp from "../../../public/cpp.png";
 import nodejs from "../../../public/nodejs.png";
-import java from "../../../public/java.png";
 import c from "../../../public/c.png";
 import typescript from "../../../public/typescript.png";
 import nextjsdm from "../../../public/nextjsdm.png";
@@ -26,7 +25,7 @@ const techs = [
     { id: 6, src: tailwind, title: "Tailwind CSS", style: "shadow-sky-500 bg-black" },
     { id: 7, src: bootstrap, title: "Bootstrap", style: "shadow-indigo-600 bg-black" },
     { id: 8, src: cpp, title: "C++", style: "shadow-blue-500 bg-black" },
-    { id: 9, src: java, title: "Java", style: "shadow-blue-900 bg-black" },
+    // { id: 9, src: java, title: "Java", style: "shadow-blue-900 bg-black" },
     { id: 10, src: c, title: "C", style: "shadow-indigo-900 bg-black" },
     { id: 11, src: github, title: "GitHub", style: "shadow-gray-700 bg-black" },
     { id: 12, src: git, title: "Git", style: "shadow-orange-800 bg-black" },

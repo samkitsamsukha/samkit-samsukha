@@ -21,7 +21,7 @@
 				"paragraph": "Taking up this challenge intrigued me to practice writing more CSS. I was able to write keyframes comfortably but still faced issues with media queries. I realized that while Tailwind is a powerful tool, it's essential to understand the underlying CSS concepts. This challenge was a reminder to hone my CSS skills and not rely solely on utility classes. It's like going back to the basics to build a stronger foundation."
 			}
 		],
-		"createdAt": "20th December	, 2024"
+		"createdAt": "20th December, 2024"
 	},
 	{
 		"id": 2,
@@ -55,7 +55,7 @@
 		"id": 1,
 		"title": "NextJS and Hydration",
 		"slug": "nextjs-and-hydration",
-		"header": "/1.png",
+		"header": "/blogs/1.png",
 		"width": 800,
 		"height" : 400,
 		"description": "Explore the puzzling yet common issue of hydration faults in Next.js, where server-rendered content struggles to sync seamlessly with the client. This blog delves into the causes, prevention techniques, and effective debugging strategies to keep your applications smooth and error-free.",

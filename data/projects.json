@@ -1,5 +1,33 @@
 [
 	{
+		"id": 7,
+		"slug": "sanskriti",
+		"title": "Sanskriti - Mapping Cultural Narratives",
+		"src": "/projects/sanskriti/1.png",
+		"desc": "Sanskriti is a revolutionised platform which aims to bridge the gap between people from different cultures and helps create awareness around others' cultures. This web application involves use of Gamified Elements for better engagement and token & badge system for more enriching experience. To connect the with the Gen-Z's, it incorporates a social sharing tab where users can create posts and like others' posts. A chatbot is also provided to assist about the culture and traditions. An interactive map on the homescreen redirects to the states unique cultures page.",
+		"features": [
+			"Gamified elements to engage audience",
+			"Audio(TTS) Visual components for better understanding",
+			"Social Sharing to spread awareness and excitement"
+		],
+		"tech": [
+			"Next.js",
+			"Tailwind CSS",
+			"Groq API",
+			"Docker",
+			"Prisma",
+			"PostgreSQL"
+		],
+		"imageGallery": [
+			"/projects/sanskriti/1.png",
+			"/projects/sanskriti/2.png",
+			"/projects/sanskriti/3.png",
+			"/projects/sanskriti/4.png"
+		],
+		"code": "https://github.com/samkitsamsukha/Sanskriti",
+		"videoId": ""
+	},
+	{
 		"id": 1,
 		"slug": "vitalis",
 		"title": "Vitalis - Healthcare Platform",
