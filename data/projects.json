@@ -2,7 +2,7 @@
 	{
 		"id": 7,
 		"slug": "jumble",
-		"title": "Jumble - Hiring at the speed of thought (Bumble for Jobs)",
+		"title": "Jumble - Hiring at the speed of thought",
 		"src": "/projects/jumble/1.png",
 		"desc": "Jumble is an AI platform that connects job seekers and employers through a unique and engaging experience. It allows users to create profiles, showcase their skills, and connect with potential employers in a fun and interactive way. The platform uses a bumble inspired technique of rejecting and accepting candidate profiles to provide them a review about the current resume and what can be done better.",
 		"features": [
@@ -14,7 +14,8 @@
 			"React.js",
 			"Tailwind CSS",
 			"Express.js",
-			"MongoDB"
+			"MongoDB",
+			"GeminiAPI"
 		],
 		"imageGallery": [
 			"/projects/jumble/1.png",
