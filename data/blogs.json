@@ -1,6 +1,30 @@
 [
 	{
 		"id": 3,
+		"title": "Teaching frontend is not easy :)",
+		"slug": "css",
+		"header": "/blogs/ccsession.png",
+		"width": 800,
+		"height": 400,
+		"description": "I find myself intrigued by the challenge that lies in making people understand the nuances of frontend development.",
+		"content": [
+			{
+				"subheading": "Introduction",
+				"paragraph": "As part of the Web Development Bootcamp by Coding Club RVCE, I taught the fundamentals of HTML and CSS and trust me the job isn't easy. I found myself stuck in between when I figured out that altough what I teach is correct and makes sense to me, to a developer just starting out, it is a completely oppsite case and he/she might not resonate with it as I do."
+			},
+			{
+				"subheading": "Challenges Faced",
+				"paragraph": "I covered the basic aspects but I was not sure whether it has been delivered to perfection and that does it make them independent enough to build a static webpage on their own. I was skeptical about the fact that not everyone has got a good design sense and with the advent of UI generating technologies like Bolt, CursorAI, ChatGPT, Blackbox, will frontend development still be a thing?"
+			},
+			{
+				"subheading": "Reflection",
+				"paragraph": "Teaching frontend development is a challenge, but it's also a rewarding experience. I learned that patience and empathy are key when guiding beginners. I also realized that while tools like ChatGPT can assist in coding, understanding the fundamentals is irreplaceable. The joy of seeing students grasp concepts and create their own projects is worth the effort."
+			}
+		],
+		"createdAt": "6th April, 2025"
+	},
+	{
+		"id": 3,
 		"title": "Can you write CSS?",
 		"slug": "css",
 		"header": "/blogs/css.png",
