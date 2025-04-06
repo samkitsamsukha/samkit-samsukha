@@ -1,6 +1,32 @@
 [
 	{
 		"id": 7,
+		"slug": "jumble",
+		"title": "Jumble - Hiring at the speed of thought (Bumble for Jobs)",
+		"src": "/projects/jumble/1.png",
+		"desc": "Jumble is an AI platform that connects job seekers and employers through a unique and engaging experience. It allows users to create profiles, showcase their skills, and connect with potential employers in a fun and interactive way. The platform uses a bumble inspired technique of rejecting and accepting candidate profiles to provide them a review about the current resume and what can be done better.",
+		"features": [
+			"AI Generated Resume Review",
+			"Accept / Swipe / Reject Candidate Profiles",
+			"Filter Candidates using AI"
+		],
+		"tech": [
+			"React.js",
+			"Tailwind CSS",
+			"Express.js",
+			"MongoDB"
+		],
+		"imageGallery": [
+			"/projects/jumble/1.png",
+			"/projects/jumble/2.png",
+			"/projects/jumble/3.png",
+			"/projects/jumble/4.png"
+		],
+		"code": "https://github.com/samkitsamsukha/Sanskriti",
+		"videoId": ""
+	},
+	{
+		"id": 7,
 		"slug": "sanskriti",
 		"title": "Sanskriti - Mapping Cultural Narratives",
 		"src": "/projects/sanskriti/1.png",

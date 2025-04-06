@@ -31,7 +31,7 @@ const edu = [
 const EducationPage = () => {
 	return (
 		<div className="flex flex-col items-center min-h-screen bg-black mb-16"> {/* Added mt-16 to account for the Navbar height */}
-			<div className="flex mx-auto w-fit rounded-full text-center px-4 py-2 bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 font-bold text-2xl mt-16 mb-8">
+			<div className="flex mx-auto w-fit rounded-full text-center px-4 py-2 bg-gradient-to-r from-yellow-600 via-orange-500 to-red-500 font-bold text-2xl mt-16 mb-8">
 				My Education
 			</div>
 			<div className="flex flex-col justify-center items-center sm:w-full max-w-3xl space-y-6 px-4">
