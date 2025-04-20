@@ -1,8 +1,32 @@
 [
 	{
-		"id": 3,
+		"id": 5,
+		"title": "Hackathon or Ideathon?",
+		"slug": "nmamt",
+		"header": "/blogs/nmamt.png",
+		"width": 800,
+		"height": 400,
+		"description": "Upon participating in a hackathon at NMAMT recently, I was wondering what it actually was? A hackathon or an ideathon?",
+		"content": [
+			{
+				"subheading": "Introduction",
+				"paragraph": "My team travelled to Nitte (NMAMT) for HackFest 2025, a 36 hout hackathon and we were excited to explore the possibilities. However, as we delved into the event, we found ourselves questioning the true nature of a hackathon. Was it really about coding and building projects, or was it more about ideation and brainstorming? Yes Ideation is important, but if you just present a PPT and some loose code at the end of 36 hours, is it really a hackathon?"
+			},
+			{
+				"subheading": "At the ground level",
+				"paragraph": "I noticed some really exciting things, teams who were not able to make a frontend backend integration made it to the Top-15 and presented - not a website - but some PNGs and a terminal error showing {data.map is not a function}, let's laugh developers :) , and they were awarded for their creativity. The event felt more like a platform for showcasing ideas rather than actual coding skills. While ideation is crucial, it should be complemented by practical implementation. A hackathon where code was modified after the deadline, raises questions on the intgerity. To add to it, an estimate of 33% teams lacked either a working prototype or a business model."
+			},
+			{
+				"subheading": "Takeaway",
+				"paragraph": "While I was amused after looking at the several presentations, I figured out that hackathons should be taken as a platform to grind and get something meaningful done. It's important that the focus remains on building projects and not just on presenting ideas. The hackathon structure did not involve any evaluation after the project was ready. The Top-15 teams were shortlisted at the midway stage and the final presentation was just a formality."
+			}
+		],
+		"createdAt": "20th April, 2025"
+	},
+	{
+		"id": 4,
 		"title": "Teaching frontend is not easy :)",
-		"slug": "css",
+		"slug": "ccsession",
 		"header": "/blogs/ccsession.png",
 		"width": 800,
 		"height": 400,

@@ -2,6 +2,9 @@
 
 import Image from "next/image";
 import { AnimatedTooltip } from "../components/AnimatedTooltip";
+import portfolios from "../../data/projects.json";
+import blogs from "../../data/blogs.json";
+import Link from "next/link";
 
 const sam = [
 	{
@@ -87,6 +90,60 @@ export default function Home() {
 					<AnimatedTooltip items={sam} />
 				</div>
 			</div>
+			{/* Recent Projects Section */}
+			<div className="w-full max-w-7xl mt-20 px-6">
+				<h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">
+					Recent Projects
+				</h2>
+				<div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+					{portfolios.slice(0, 2).map((project) => (
+						<Link
+							href={`/projects/${project.slug}`}
+							key={project.id}
+							className="bg-black rounded-2xl shadow-lg p-5 border border-orange-500 hover:scale-[1.02] transition-all duration-300 flex flex-row gap-4"
+						>
+							<div className="w-1/3 relative rounded-xl overflow-hidden mb-4">
+								<Image
+									src={project.src}
+									alt={project.title}
+									fill
+									className="object-cover w-64"
+								/>
+							</div>
+							<div className="w-2/3 flex flex-col justify-center">
+								<h3 className="text-xl font-semibold text-yellow-300 mb-2">
+									{project.title}
+								</h3>
+								<p className="text-sm text-gray-100 mb-4 line-clamp-3">
+									{project.desc}
+								</p>
+							</div>
+						</Link>
+					))}
+				</div>
+				<h2 className="text-3xl md:text-4xl font-bold text-center my-10 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">
+					Recent Blogs
+				</h2>
+				<div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+					{blogs.slice(0, 2).map((blog) => (
+						<Link
+							href={`/blogs/${blog.slug}`}
+							key={blog.id}
+							className="bg-black rounded-2xl shadow-lg p-5 border border-orange-500 hover:scale-[1.02] transition-all duration-300 flex flex-row gap-4"
+						>
+							<div className="flex flex-col justify-center">
+								<h3 className="text-xl font-semibold text-yellow-300 mb-2">
+									{blog.title}
+								</h3>
+								<p className="text-sm text-gray-100 mb-4 line-clamp-3">
+									{blog.description}
+								</p>
+							</div>
+						</Link>
+					))}
+					</div>
+			</div>
+
 		</div>
 	);
 }
