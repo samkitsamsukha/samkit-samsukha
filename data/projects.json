@@ -1,6 +1,27 @@
 [
 	{
-		"id": 7,
+		"id": 9,
+		"slug": "csr-kive",
+		"title": "CSR-Kive - CSR no longer an Obligation",
+		"src": "/projects/csr-kive/1.png",
+		"desc": "CSR-Kive is a Corporate Social Responsibility (CSR) management platform that transforms compliance into engagement. Designed for organizations committed to sustainability and social impact, CSR-Kive allows admins to post CSR activities and events, while employees can participate, submit reports, and earn recognition through a gamified leaderboard system. The platform ensures transparency and effective documentation with AI-powered analytics and auto-generated PDF audit reports.",
+		"features": [
+			"Admin Dashboard for Event Management",
+			"Employee Portal for Report Submissions",
+			"AI-Generated CSR Audit Report in PDF Format"
+		],
+		"tech": ["React.js", "Tailwind CSS", "Express.js", "MongoDB", "jsPDF"],
+		"imageGallery": [
+			"/projects/csr-kive/1.png",
+			"/projects/csr-kive/2.png",
+			"/projects/csr-kive/3.png",
+			"/projects/csr-kive/4.png"
+		],
+		"code": "https://github.com/samkitsamsukha/hf-csr-kive",
+		"videoId": ""
+	},
+	{
+		"id": 8,
 		"slug": "jumble",
 		"title": "Jumble - Hiring at the speed of thought",
 		"src": "/projects/jumble/1.png",
@@ -10,13 +31,7 @@
 			"Accept / Swipe / Reject Candidate Profiles",
 			"Filter Candidates using AI"
 		],
-		"tech": [
-			"React.js",
-			"Tailwind CSS",
-			"Express.js",
-			"MongoDB",
-			"GeminiAPI"
-		],
+		"tech": ["React.js", "Tailwind CSS", "Express.js", "MongoDB", "GeminiAPI"],
 		"imageGallery": [
 			"/projects/jumble/1.png",
 			"/projects/jumble/2.png",
@@ -83,7 +98,7 @@
 		"demo": "https://vitalis.shrishdeshpande.com",
 		"videoId": "KgemxuNsC2I"
 	},
-    {
+	{
 		"id": 2,
 		"slug": "rfid-direct",
 		"title": "RFID-Direct (Ecommerce) - Frontend",
@@ -94,12 +109,7 @@
 			"Dedicated Product and Order Page",
 			"Payment Gateway powered by Razorpay"
 		],
-		"tech": [
-			"ReactJS",
-			"Tailwind CSS",
-			"RazorPay",
-			"TailBlocks"
-		],
+		"tech": ["ReactJS", "Tailwind CSS", "RazorPay", "TailBlocks"],
 		"imageGallery": [
 			"/projects/rfiddirect/1.png",
 			"/projects/rfiddirect/2.png",
@@ -110,7 +120,7 @@
 		"demo": "https://rfid-direct-ecom.vercel.app/",
 		"videoId": ""
 	},
-    {
+	{
 		"id": 3,
 		"slug": "snake-ladder",
 		"title": "Snakes & Ladder - [Freelance Project]",
@@ -119,12 +129,9 @@
 		"features": [
 			"Minimalist UI Design",
 			"Clean Frontend",
-            "Well Structured Components"
+			"Well Structured Components"
 		],
-		"tech": [
-			"ReactJS",
-			"Tailwind CSS"
-		],
+		"tech": ["ReactJS", "Tailwind CSS"],
 		"imageGallery": [
 			"/projects/snakeladder/1.png",
 			"/projects/snakeladder/2.png",
@@ -135,24 +142,15 @@
 		"demo": "https://snake-ladder-roan.vercel.app/",
 		"videoId": ""
 	},
-    {
+	{
 		"id": 4,
 		"slug": "daily-dispatch",
 		"title": "Daily Dispatch - Latest News",
 		"src": "/projects/dailydispatch/1.png",
 		"desc": "A news website which renders latest news from the NewsAPI and displays it category wise based on different genre in a card format using the concept of react component reusability. Each card has a Read Now button redirecting to the main article.",
-		"features": [
-			"News classified by genre",
-			"Component Resuability"
-		],
-		"tech": [
-			"ReactJS",
-			"Tailwind CSS",
-			"NewsAPI"
-		],
-		"imageGallery": [
-			"/projects/dailydispatch/1.png"
-		],
+		"features": ["News classified by genre", "Component Resuability"],
+		"tech": ["ReactJS", "Tailwind CSS", "NewsAPI"],
+		"imageGallery": ["/projects/dailydispatch/1.png"],
 		"code": "https://github.com/samkitsamsukha/daily-dispatch",
 		"demo": "",
 		"videoId": "k-43Gn-8a5I"
@@ -163,17 +161,9 @@
 		"title": "Expense Tracker",
 		"src": "/projects/expensetracker/1.png",
 		"desc": "A simple react application which tracks your expenses providing features like add income and expenditure along with remarks. The data appends to a history of transactions.",
-		"features": [
-			"Minimalist UI Design",
-			"Add income / expenditure"
-		],
-		"tech": [
-			"ReactJS",
-			"Tailwind CSS"
-		],
-		"imageGallery": [
-			"/projects/expensetracker/1.png"
-		],
+		"features": ["Minimalist UI Design", "Add income / expenditure"],
+		"tech": ["ReactJS", "Tailwind CSS"],
+		"imageGallery": ["/projects/expensetracker/1.png"],
 		"code": "https://github.com/samkitsamsukha/expense-tracker",
 		"demo": "https://expense-tracker-iota-six-93.vercel.app/",
 		"videoId": ""
@@ -189,12 +179,7 @@
 			"Beginner Friendly",
 			"Note Taking & To-Do list"
 		],
-		"tech": [
-			"HTML",
-			"CSS",
-			"JS",
-			"Prism.js"
-		],
+		"tech": ["HTML", "CSS", "JS", "Prism.js"],
 		"imageGallery": [
 			"/projects/codehelp/1.png",
 			"/projects/codehelp/2.png",
