@@ -76,7 +76,7 @@ export default function Home() {
 							}
 						`}</style>
 						<Image
-							src="/heroImage.jpg"
+							src="/heroImage2.png"
 							alt="Amoeboid Structure"
 							layout="fill"
 							objectFit="cover"
