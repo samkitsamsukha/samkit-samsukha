@@ -13,7 +13,7 @@ const Hackathons = () => {
             dates: "April 18th - 20th, 2025",
             location: "Finite Loop Club, NMAM Institute of Technology, Nitte",
             description:
-                "A coding challenge using only HTML, CSS, and JavaScript. The problem statement involved developing an efficient college website.",
+                "Developed a web app called CSR Kive that connects NGOs with corporate social responsibility (CSR) initiatives, facilitating collaboration and resource sharing.",
             image: "/hackathons/hackfest/logo.png",
             photo: "/hackathons/hackfest/photo.png",
             links: [
@@ -29,7 +29,7 @@ const Hackathons = () => {
             dates: "April 7th - 8th, 2025",
             location: "ACM, RV College of Engineering, Bengaluru",
             description:
-                "A coding challenge using only HTML, CSS, and JavaScript. The problem statement involved developing an efficient college website.",
+                "A subtle mix of hackathon in the Shark Tank version, where just coding is not enough. A business pitch is equally important.",
             image: "/hackathons/techtank/logo.png",
             photo: "/hackathons/techtank/photo.png",
             links: [
@@ -56,7 +56,7 @@ const Hackathons = () => {
                 },
                 {
                     icon: <Award size={15} />,
-                    title: "Third",
+                    title: "3rd",
                     href: "/",
                 },
             ],
@@ -83,7 +83,7 @@ const Hackathons = () => {
             dates: "December 4th - 5th, 2024",
             location: "B.M.S. College of Engineering, Bengaluru",
             description:
-                "Developed a machine learning-based web app focusing on the Sustainable Development Goal XX.",
+                "Developed a machine learning-based web app focusing on the Sustainable Development Goal 15: Life on Land.",
             image: "/hackathons/hackaphasia/logo.png",
             photo: "/hackathons/hackaphasia/photo.png",
             links: [
