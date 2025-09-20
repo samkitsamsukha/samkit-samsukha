@@ -11,7 +11,7 @@ const sam = [
 		id: 1,
 		name: "LeetCode",
 		image: "/leetcode.png",
-		link: "https://leetcode.com/u/samdoesdev/",
+		link: "https://leetcode.com/u/serenechaos/",
 	},
 	{
 		id: 2,
@@ -51,11 +51,7 @@ export default function Home() {
 						</span>
 					</h1>
 					<div className="py-4 text-base md:text-lg lg:text-xl">
-						I am a proficient front-end developer and a coping backend
-						developer. Currently, I am using the React and NextJS framework
-						along with Tailwind CSS and I plan to further dive deep into Express
-						and MongoDB to have a strong grip on my backend skills along with
-						working on several projects.
+						I am a proficient full-stack developer and currently exploring gen-AI. I have been using the tech stack of React, MongoDB and Express along with TailwindCSS. I am passionate about building efficient and scalable web applications that provide seamless user experiences.
 					</div>
 					<div className="flex justify-center md:justify-start">
 						<a
