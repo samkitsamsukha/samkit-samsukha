@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Award, Crown, Github, MapPin } from "lucide-react";
+import { Award, Github, Globe, MapPin } from "lucide-react";
 
 
 
@@ -19,8 +19,8 @@ const Hackathons = () => {
             links: [
                 {
                     icon: <Github className="size-4" />,
-                    title: "Source",
-                    href: "/",
+                    title: "Code",
+                    href: "https://github.com/samkitsamsukha/hf-csr-kive",
                 },
             ],
         },
@@ -35,14 +35,9 @@ const Hackathons = () => {
             links: [
                 {
                     icon: <Github className="size-4" />,
-                    title: "Source 1",
-                    href: "/",
-                },
-                {
-                    icon: <Github className="size-4" />,
-                    title: "Source 2",
-                    href: "/",
-                },
+                    title: "Code",
+                    href: "https://github.com/samkitsamsukha/csr-kive",
+                }
             ],
         },
         {
@@ -57,11 +52,11 @@ const Hackathons = () => {
                 {
                     icon: <Github className="size-4" />,
                     title: "Source",
-                    href: "/",
+                    href: "https://github.com/samkitsamsukha/smart-match",
                 },
                 {
                     icon: <Award size={15} />,
-                    title: "Top 9",
+                    title: "Third",
                     href: "/",
                 },
             ],
@@ -75,15 +70,11 @@ const Hackathons = () => {
             image: "/hackathons/codecraze/logo.png",
             photo: "/hackathons/codecraze/photo.png",
             links: [
+                
                 {
-                    icon: <Github className="size-4" />,
-                    title: "Source",
-                    href: "/",
-                },
-                {
-                    icon: <Crown size={15} />,
-                    title: "3rd Place",
-                    href: "/",
+                    icon: <Award size={15} />,
+                    title: "3rd",
+                    href: "",
                 },
             ],
         },
@@ -97,14 +88,19 @@ const Hackathons = () => {
             photo: "/hackathons/hackaphasia/photo.png",
             links: [
                 {
-                    icon: <Github className="size-4" />,
-                    title: "Source",
+                    icon: <Globe className="size-4" />,
+                    title: "Live",
                     href: "https://krushi-ai.vercel.app",
+                },
+                {
+                    icon: <Github className="size-4" />,
+                    title: "Code",
+                    href: "https://github.com/samkitsamsukha/krushi-ai",
                 },
                 {
                     icon: <Award className="size-4" />,
                     title: "Top 5",
-                    href: "https://krushi-ai.vercel.app",
+                    href: "",
                 },
             ],
         },

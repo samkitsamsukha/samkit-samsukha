@@ -7,7 +7,7 @@ const edu = [
         school: "R.V. College of Engineering",
         location: "Bengaluru, India",
         grade: "Bachelor of Engineering in Information Science",
-        result: "9.38 (as of 3rd semester)",
+        result: "9.38 (as of 4th semester)",
         image: "/rvce.jpg",
     },
 	{
