@@ -8,6 +8,7 @@ const edu = [
         location: "Bengaluru, India",
         grade: "Bachelor of Engineering in Information Science",
         result: "9.38 (as of 4th semester)",
+		duration: "September 2023 - August 2027 (expected)",
         image: "/rvce.jpg",
     },
 	{
@@ -16,6 +17,7 @@ const edu = [
 		location: "Kolkata, India",
 		grade: "ISC - Class XII (Science PCM + CS)",
 		result: "94.25%",
+		duration: "June 2021 - May 2023",
 		image: "/srisriacademy.jpg",
 	},
     {
@@ -24,6 +26,7 @@ const edu = [
         location: "Kolkata, India",
         grade: "ICSE - Class X (Science PCMB)",
         result: "97.6%",
+		duration: "February 2010 - May 2021",
         image: "/srisriacademy.jpg",
     },
 ];
@@ -35,7 +38,7 @@ const EducationPage = () => {
 				My Education
 			</div>
 			<div className="flex flex-col justify-center items-center sm:w-full max-w-3xl space-y-6 px-4">
-				{edu.map(({ id, school, location, grade, result, image }) => (
+				{edu.map(({ id, school, location, grade, result, duration, image }) => (
 					<div
 						key={id}
 						className="relative bg-black text-white p-6 rounded-xl w-full sm:h-[250px] transition-all duration-300 ease-in-out hover:scale-110 overflow-hidden group glow-effect"
@@ -58,6 +61,7 @@ const EducationPage = () => {
 						<div className="relative z-10 p-4 flex flex-col justify-center h-fit sm:h-full space-y-2">
 							<h3 className="text-xl sm:text-2xl font-bold">{school}</h3>
 							<p className="text-sm text-gray-300">{location}</p>
+							<p className="text-sm text-gray-300">{duration}</p>
 							<p className="text-orange-400">{grade}</p>
 							<p className="text-lg font-semibold">{result}</p>
 						</div>
